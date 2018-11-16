@@ -1,0 +1,24 @@
+{
+  "name": "vendor_name/package_name",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "author's name",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "7.4.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "CodeKatas\\Codewars\\": "codewars/src/",
+      "CodeKatas\\GeeksForGeeks\\": "geeksforgeeks/src/"
+    }
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master"
+  }
+}
