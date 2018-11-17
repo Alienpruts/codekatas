@@ -27,9 +27,9 @@ class PlusMinus
             }
         }
 
-        $pos = $pos === 0 ? number_format($pos, 6) : number_format($pos / $elements, 6);
-        $neg = $neg === 0 ? number_format($neg, 6) : number_format($neg / $elements, 6);
-        $zero = $zero === 0 ? number_format($zero, 6) : number_format($zero / $elements, 6);
+        $pos = number_format($pos / $elements, 6);
+        $neg = number_format($neg / $elements, 6);
+        $zero = number_format($zero / $elements, 6);
 
         return $pos . PHP_EOL . $neg . PHP_EOL . $zero;
     }
