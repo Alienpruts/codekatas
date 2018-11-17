@@ -15,7 +15,8 @@
   "autoload": {
     "psr-4": {
       "CodeKatas\\Codewars\\": "codewars/src/",
-      "CodeKatas\\GeeksForGeeks\\": "geeksforgeeks/src/"
+      "CodeKatas\\GeeksForGeeks\\": "geeksforgeeks/src/",
+      "CodeKatas\\HackerRank\\": "hackerrank/src/"
     }
   },
   "require-dev": {
